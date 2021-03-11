@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application -->
+    <string name="placeholder">marcador de posición</string>
+    <string name="generalContentDescription">Aquí hay un recurso de imagen</string>
+    <string name="toQRCode">Escáner</string>
+
+    <!-- Loading Activity -->
+    <string name="loading_product">© 2021\n\nReal Degrees es un posible producto de HIS EG</string>
+
+    <!-- Detail View -->
+    <string name="detailView_state_name">estado</string>
+    <string name="detailView_address">Dirección de transacción</string>
+    <string name="detailView_category">Forma de colegio</string>
+    <string name="detailView_university">nombre de la universidad</string>
+    <string name="detailView_course">Curso de Estudio</string>
+    <string name="detailView_birth">Fecha de nacimiento</string>
+    <string name="detailView_student_name">Nombre del graduado</string>
+    <string name="detailView_degree">Graduación</string>
+    <string name="detailView_pin">PIN</string>
+    <string name="detailView_grade">Nota final</string>
+    <string name="detailView_start_year">Año de inicio</string>
+    <string name="detailView_students">Estudiantes</string>
+    <string name="detailView_promotion">Derecho a otorgar doctorados</string>
+    <string name="detailView_button_back">ESPALDA</string>
+    <string name="detailView_button_delete">ELIMINAR</string>
+    <string name="detailView_dialog_heading">¿Está seguro de que desea eliminar esta entrada?</string>
+    <string name="detailView_dialog_subheading">La entrada se eliminará de forma irrevocable.</string>
+    <string name="detailView_dialog_deleted">La entrada fue eliminada.</string>
+    <string name="detailView_dialog_cancel">CANCELAR</string>
+
+    <!-- Screen MasterView -->
+    <string-array name="masterView_state">
+        <item>inválido</item>
+        <item>válido</item>
+    </string-array>
+    <string name="masterView_heading">Manual:</string>
+    <string name="masterView_tf_name">Primer nombre:</string>
+    <string name="masterView_tf_surname">Apellido:</string>
+    <string name="masterView_instructions">
+1. Para escanear un nuevo certificado, presione el símbolo más en la vista maestra. \n\n
+2. Apunte la cámara firmemente al código QR del certificado que desea escanear durante unos segundos. \n\n
+3. Ahora se abre una consulta en la que se debe ingresar el PIN asignado al certificado. \n\n
+4. Si los dos PIN coinciden, accederá a la vista detallada del documento. \n\n
+5. Si no se le pide que ingrese el PIN después del escaneo, el código QR era incorrecto.
+Los escaneos defectuosos se resaltan en rojo en la vista maestra.</string>
+
+    <!-- PIN Activity -->
+    <string name="pinActivity_button_back">atrás</string>
+    <string name="pinActivity_button_ok">Okay</string>
+    <string name="pinActivity_ed_pin">ALFILER</string>
+    <string name="pinActivity_tv_enter">Ingrese el PIN debajo del código QR.</string>
+    <string name="pinActivity_tv_state">En verificación</string>
+    <string name="pinActivity_loading_title">Cargas</string>
+    <string name="pinActivity_loading_message">Por favor espera …</string>
+    <string name="pinActivity_error">No se ingresó PIN !</string>
+
+    <!-- ScanActivity -->
+    <string name="scanActivity_not_readable">¡El código QR no contiene los datos requeridos!</string>
+    <string name="scanActivity_error">¡Error al escanear el código QR!</string>
+</resources>

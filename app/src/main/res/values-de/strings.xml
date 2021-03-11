@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application -->
+    <string name="placeholder">Platzhalter</string>
+    <string name="generalContentDescription">Hier ist eine Image-Resource</string>
+    <string name="toQRCode">Scanner</string>
+
+    <!-- Loading Activity -->
+    <string name="loading_product">© 2021\n\nReal Degrees ist ein mögliches Produkt der HIS EG</string>
+
+    <!-- Detail View -->
+    <string name="detailView_state_name">Bundesland</string>
+    <string name="detailView_address">Transaktionsadresse</string>
+    <string name="detailView_category">Form der Hochschule</string>
+    <string name="detailView_university">Name der Hochschule</string>
+    <string name="detailView_course">Studiengang</string>
+    <string name="detailView_birth">Geburtsdatum</string>
+    <string name="detailView_student_name">Name des Absolventen</string>
+    <string name="detailView_degree">Abschluss</string>
+    <string name="detailView_pin">PIN</string>
+    <string name="detailView_grade">Endnote</string>
+    <string name="detailView_start_year">Startjahr</string>
+    <string name="detailView_students">Studierende</string>
+    <string name="detailView_promotion">Promotionsrecht</string>
+    <string name="detailView_button_back">ZURÜCK</string>
+    <string name="detailView_button_delete">LÖSCHEN</string>
+    <string name="detailView_dialog_heading">Diesen Eintrag wirklich löschen?</string>
+    <string name="detailView_dialog_subheading">Der Eintrag wird unwiderruflich gelöscht.</string>
+    <string name="detailView_dialog_deleted">Der Eintrag wurde gelöscht.</string>
+    <string name="detailView_dialog_cancel">ABBRECHEN</string>
+
+    <!-- Screen MasterView -->
+    <string-array name="masterView_state">
+        <item>ungültig</item>
+        <item>echt</item>
+    </string-array>
+    <string name="masterView_heading">Anleitung:</string>
+    <string name="masterView_tf_name">Vorname:</string>
+    <string name="masterView_tf_surname">Nachname:</string>
+    <string name="masterView_instructions" formatted="true">
+        1. Um ein neues Zeugnis zu scannen, wählen Sie in der Master-Ansicht das Plus-Symbol aus. \n\n
+2. Richten Sie die Kamera einige Sekunden lang ruhig auf den QR Code des Zeugnis, das Sie scannen möchten. \n\n
+3. Es öffnet sich nun eine Abfrage, in welcher die dem Zertifikat zugeordnete PIN eingegeben werden muss. \n\n
+4. Stimmen die beiden PINs überein, so gelangt man in die Detailansicht des Dokuments. \n\n
+5. Wird man nach dem Scan nicht um die Eingabe des Pins gebeten, so war der QR-Code fehlerhaft.
+Fehlerhafte Scans werden in der Master-View rot unterlegt dargestellt.
+    </string>
+
+    <!-- PIN Activity -->
+    <string name="pinActivity_button_back">Zurück</string>
+    <string name="pinActivity_button_ok">OK</string>
+    <string name="pinActivity_ed_pin">PIN</string>
+    <string name="pinActivity_tv_enter">Bitte gib die PIN unterhalb des QR-Codes ein.</string>
+    <string name="pinActivity_tv_state">In Prüfung</string>
+    <string name="pinActivity_loading_title">Lädt</string>
+    <string name="pinActivity_loading_message">Bitte warten …</string>
+    <string name="pinActivity_error">Keine PIN eingegeben !</string>
+
+    <!-- ScanActivity -->
+    <string name="scanActivity_not_readable">Der QR-Code enthält nicht die erforderlichen Daten!</string>
+    <string name="scanActivity_error">Fehler beim Scannen des QR-Codes!</string>
+</resources>
